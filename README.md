@@ -28,3 +28,9 @@ If you have proposal or issue. Add an issue with description of your case.
 ### Unreleased
 
 Initial release of unreleased yet.
+
+## TODO
+Add another feature of safe delayed autosave:
+* when this is enabled, changes are synced to filename.ext.bk
+* when Cmd + S is clicked, sync the content from filename.ext.bk to filename.ext
+* when vscode exits, delete all filename.ext.bk
